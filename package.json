@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "dependencies": {
-    "express": "^4.13.3"
+    "async": "^1.4.2",
+    "express": "^4.13.3",
+    "request": "^2.61.0"
   }
 }
