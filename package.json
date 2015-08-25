@@ -4,6 +4,7 @@
   "main": "index.js",
   "dependencies": {
     "async": "^1.4.2",
+    "body-parser": "^1.13.3",
     "express": "^4.13.3",
     "request": "^2.61.0"
   }
