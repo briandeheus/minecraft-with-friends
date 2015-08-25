@@ -1,0 +1,6 @@
+{
+	"host": "0.0.0.0",
+	"port": 8080,
+	"whitelist": "./sample.whitelist.json",
+	"friendship_key": "share_this_with_your_friends"
+}

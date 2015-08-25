@@ -1,0 +1,44 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+	background-image: url('/images/bg.jpg');
+	font-family: 'VT323';
+	font-size: 14px;
+	background-size: cover;
+	padding: 0;
+	margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+	text-align: center;
+}
+
+input {
+	margin-bottom: 32px;
+  padding: 16px;
+  font-size: 24px;
+  text-align: center;
+  border: 0px;
+  width: 400px;
+  font-family: 'VT323';
+}
+
+.big-ass-button {
+	display: inline-block;
+  width: 200px;
+  font-size: 24px;
+  background-color: #003700;
+  color: white;
+  padding: 16px;
+  cursor: pointer;
+}
+
+.big-ass-button:hover {
+	background-color: white;
+	color: #003700;
+}

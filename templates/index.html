@@ -6,16 +6,25 @@
 
   <title>Minecraft with Twitterfriends</title>
   <meta name="description" content="Minecraft with Twitterfriends">
+
+  <!-- Style it up -->
   <link href='http://fonts.googleapis.com/css?family=VT323' rel='stylesheet' type='text/css'>
-  <style>
-  body {
-  	font-family: 'VT323';
-  	font-size: 14px;
-  }
-  </style>
+  <link href='/css/style.css' rel='stylesheet' type='text/css'>
+
+  <!-- Script it up -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
 </head>
 	
 <body>
-  <h1>Are you my friend? Please join my Minecraft server!</h1>
+	<div class="container">
+  		<h1>Are you my friend? Please join my Minecraft server!</h1>
+  		<input id="friendship-key" placeholder="Friendship Key"><br>
+  		<input id="minecraft-name" placeholder="Your Minecraft account name"><br>
+  		<div id="submit" class="big-ass-button">I want to join!</div>
+  	</div>
+
+  <!-- final script -->
+  <script src="/js/script.js"></script>
 </body>
 </html>
