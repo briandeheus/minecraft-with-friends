@@ -24,9 +24,10 @@
 		}
 
 
-		$.post('/api/check-friendship', {minecraftName: minecraftName, key: key}, function (response, data) {
-
-			console.log('Response:', arguments);
+		$.post('/api/check-friendship', {minecraftName: minecraftName, key: key}, function (response) {
+			
+			//Super lazy but backend sends a string response that indicates success or failure.
+			alert(response)
 
 		});
 
